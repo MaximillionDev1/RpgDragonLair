@@ -7,7 +7,8 @@ Um jogo de RPG simples baseado em texto onde você explora uma cidade, enfrenta 
 
 ## 🎮 Demonstração
 
-![Captura de tela do jogo](![screenshot](https://github.com/user-attachments/assets/8827d9ac-b1f4-417c-868f-7854d8b4f028)
+!![image](https://github.com/user-attachments/assets/9ee85b1e-5372-4d38-8232-bef90df39a4d)
+
 )  
 
 
