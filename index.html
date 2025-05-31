@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jogo RPG Dragon Lair - Aventure-se nesta jornada épica!"
+    />
+    <title>RPG - Dragon Lair</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <audio id="soundtrack" autoplay loop>
+      <source src="./assets/soundTrack.mp3" type="audio/mpeg" />
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <div id="game">
+      <div id="stats">
+        <span class="stat">
+          XP: <strong><span id="xpText">0</span></strong>
+        </span>
+        <span class="stat">
+          Saúde: <strong><span id="healthText">100</span></strong>
+        </span>
+        <span class="stat">
+          Ouro: <strong><span id="goldText">50</span></strong>
+        </span>
+      </div>
+
+      <div id="controls">
+        <button id="button1" type="button">Ir para a loja</button>
+        <button id="button2" type="button">Ir para a caverna</button>
+        <button id="button3" type="button">Lutar contra o dragão</button>
+      </div>
+
+      <div id="monsterStats" style="display: none">
+        <span class="stat">
+          Monstro: <strong><span id="monsterName"></span></strong>
+        </span>
+        <span class="stat">
+          Saúde: <strong><span id="monsterHealth"></span></strong>
+        </span>
+      </div>
+
+      <div id="text">
+        Bem-vindo ao Dragon Lair. Você deve derrotar o dragão que está impedindo
+        as pessoas de saírem da cidade. Você está na praça da cidade. Para onde
+        quer ir? Use os botões acima.
+      </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
