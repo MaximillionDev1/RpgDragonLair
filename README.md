@@ -2,8 +2,6 @@
 
 Um jogo de RPG simples baseado em texto onde você explora uma cidade, enfrenta monstros e batalha contra um dragão!
 
-[![GitHub license](https://img.shields.io/github/license/seu-usuario/dragon-lair-rpg)](https://github.com/seu-usuario/dragon-lair-rpg/blob/main/LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/seu-usuario/dragon-lair-rpg)
 
 ## 🎮 Demonstração
 
@@ -75,4 +73,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para d
 ✉️ Contato
 Matheus Vinicius - - matheus_vinix@hotmail.com.br
 
-Link do Projeto:[ https://github.com/seu-usuario/dragon-lair-rpg](https://github.com/MaximillionDev1/RpgDragonLair)
+Link do Projeto:(https://github.com/MaximillionDev1/RpgDragonLair)
