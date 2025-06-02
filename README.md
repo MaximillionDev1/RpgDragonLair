@@ -54,6 +54,7 @@ dragon-lair-rpg/
 │   ├── soundtrack.mp3 # Trilha sonora
 │   └── EpicWinSong.mp3 # Música de vitória
 └── README.md          # Este arquivo
+
 🤝 Como Contribuir
 Contribuições são bem-vindas! Siga estes passos:
 
