@@ -10,6 +10,7 @@ const button1 = document.querySelector('#button1');
 const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
 const audio = document.querySelector('#soundtrack');
+const muteButton = document.getElementById('muteButton');
 const text = document.querySelector("#text");
 const xpText = document.querySelector("#xpText");
 const healthText = document.querySelector("#healthText");
@@ -17,6 +18,22 @@ const goldText = document.querySelector("#goldText");
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
+
+document.addEventListener('click', function initAudio() {
+    audio.play().catch(e => console.log("Erro ao reproduzir áudio:", e));
+
+    document.removeEventListener('click', initAudio);
+}, { once: true });
+
+muteButton.addEventListener('click', function () {
+    if (audio.muted) {
+        audio.muted = false;
+        muteButton.textContent = '🔇';
+    } else {
+        audio.muted = true;
+        muteButton.textContent = '🔊';
+    }
+});
 
 const locations = [
     {

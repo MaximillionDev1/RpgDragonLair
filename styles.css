@@ -66,3 +66,10 @@ button:hover {
 button:active {
     opacity: 0.5;
 }
+
+#muteButton {
+    position: fixed;
+    top: 460px;
+    
+    z-index: 1000
+}
